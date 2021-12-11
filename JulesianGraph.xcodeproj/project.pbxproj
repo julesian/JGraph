@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E8060022765460400AD3C01 /* JBarItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8060012765460400AD3C01 /* JBarItemCollectionViewCell.swift */; };
+		9E80600427654AA900AD3C01 /* TestDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E80600327654AA900AD3C01 /* TestDataHelper.swift */; };
+		9E806006276558F500AD3C01 /* SampleGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E806005276558F500AD3C01 /* SampleGraphView.swift */; };
+		9E8060082765600500AD3C01 /* JBarGraphIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8060072765600500AD3C01 /* JBarGraphIndicatorView.swift */; };
 		9EB38B8227637C17005A7DDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB38B8127637C17005A7DDE /* AppDelegate.swift */; };
 		9EB38B8427637C17005A7DDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB38B8327637C17005A7DDE /* SceneDelegate.swift */; };
 		9EB38B8627637C17005A7DDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB38B8527637C17005A7DDE /* ViewController.swift */; };
 		9EB38B8927637C17005A7DDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB38B8727637C17005A7DDE /* Main.storyboard */; };
 		9EB38B8B27637C20005A7DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB38B8A27637C20005A7DDE /* Assets.xcassets */; };
 		9EB38B8E27637C20005A7DDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB38B8C27637C20005A7DDE /* LaunchScreen.storyboard */; };
+		9EB38B9827637DD1005A7DDE /* JBarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB38B9727637DD1005A7DDE /* JBarGraphView.swift */; };
+		9EB38B9A2763C722005A7DDE /* JBarGraphLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB38B992763C722005A7DDE /* JBarGraphLevelView.swift */; };
+		9EB38B9C2763CF5F005A7DDE /* JBarGraphLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB38B9B2763CF5F005A7DDE /* JBarGraphLevel.swift */; };
+		9EB38B9E2763CF7B005A7DDE /* JBarGraphProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB38B9D2763CF7B005A7DDE /* JBarGraphProperties.swift */; };
+		9EB38BA02763CF99005A7DDE /* JBarGraphItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB38B9F2763CF99005A7DDE /* JBarGraphItem.swift */; };
+		9EB38BA22763D1D3005A7DDE /* JBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB38BA12763D1D3005A7DDE /* JBarCollectionViewCell.swift */; };
+		9EB38BA42763D2B8005A7DDE /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB38BA32763D2B8005A7DDE /* GradientView.swift */; };
+		9EB38BA72763DBC7005A7DDE /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB38BA62763DBC7005A7DDE /* ColorExtensions.swift */; };
+		9EB38BAA2763DBE1005A7DDE /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB38BA92763DBE1005A7DDE /* ColorConstants.swift */; };
+		9EB38BAD2763DDBF005A7DDE /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB38BAC2763DDBF005A7DDE /* ColorHelper.swift */; };
+		9EB38BB227644F84005A7DDE /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB38BB127644F84005A7DDE /* StringExtensions.swift */; };
+		9EB38BB62764E818005A7DDE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB38BB52764E818005A7DDE /* CardView.swift */; };
+		9EB38BB82765181A005A7DDE /* CALayerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB38BB72765181A005A7DDE /* CALayerExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E8060012765460400AD3C01 /* JBarItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBarItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		9E80600327654AA900AD3C01 /* TestDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataHelper.swift; sourceTree = "<group>"; };
+		9E806005276558F500AD3C01 /* SampleGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleGraphView.swift; sourceTree = "<group>"; };
+		9E8060072765600500AD3C01 /* JBarGraphIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBarGraphIndicatorView.swift; sourceTree = "<group>"; };
 		9EB38B7E27637C17005A7DDE /* JulesianGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JulesianGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB38B8127637C17005A7DDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EB38B8327637C17005A7DDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +45,19 @@
 		9EB38B8A27637C20005A7DDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EB38B8D27637C20005A7DDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EB38B8F27637C20005A7DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EB38B9727637DD1005A7DDE /* JBarGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBarGraphView.swift; sourceTree = "<group>"; };
+		9EB38B992763C722005A7DDE /* JBarGraphLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBarGraphLevelView.swift; sourceTree = "<group>"; };
+		9EB38B9B2763CF5F005A7DDE /* JBarGraphLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBarGraphLevel.swift; sourceTree = "<group>"; };
+		9EB38B9D2763CF7B005A7DDE /* JBarGraphProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBarGraphProperties.swift; sourceTree = "<group>"; };
+		9EB38B9F2763CF99005A7DDE /* JBarGraphItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBarGraphItem.swift; sourceTree = "<group>"; };
+		9EB38BA12763D1D3005A7DDE /* JBarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBarCollectionViewCell.swift; sourceTree = "<group>"; };
+		9EB38BA32763D2B8005A7DDE /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		9EB38BA62763DBC7005A7DDE /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		9EB38BA92763DBE1005A7DDE /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		9EB38BAC2763DDBF005A7DDE /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
+		9EB38BB127644F84005A7DDE /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		9EB38BB52764E818005A7DDE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		9EB38BB72765181A005A7DDE /* CALayerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,10 @@
 		9EB38B8027637C17005A7DDE /* JulesianGraph */ = {
 			isa = PBXGroup;
 			children = (
+				9EB38BAB2763DDB2005A7DDE /* Helpers */,
+				9EB38BA82763DBD6005A7DDE /* Constants */,
+				9EB38BA52763DBBA005A7DDE /* Extensions */,
+				9EB38B9527637D9E005A7DDE /* Graph */,
 				9EB38B8127637C17005A7DDE /* AppDelegate.swift */,
 				9EB38B8327637C17005A7DDE /* SceneDelegate.swift */,
 				9EB38B8527637C17005A7DDE /* ViewController.swift */,
@@ -65,6 +103,75 @@
 				9EB38B8F27637C20005A7DDE /* Info.plist */,
 			);
 			path = JulesianGraph;
+			sourceTree = "<group>";
+		};
+		9EB38B9527637D9E005A7DDE /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				9EB38B9627637DA6005A7DDE /* Objects */,
+				9EB38BB32764E801005A7DDE /* Generic */,
+				9EB38B9727637DD1005A7DDE /* JBarGraphView.swift */,
+				9EB38B992763C722005A7DDE /* JBarGraphLevelView.swift */,
+				9E8060072765600500AD3C01 /* JBarGraphIndicatorView.swift */,
+				9EB38BA12763D1D3005A7DDE /* JBarCollectionViewCell.swift */,
+				9E8060012765460400AD3C01 /* JBarItemCollectionViewCell.swift */,
+				9EB38BA32763D2B8005A7DDE /* GradientView.swift */,
+				9E806005276558F500AD3C01 /* SampleGraphView.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		9EB38B9627637DA6005A7DDE /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				9EB38B9B2763CF5F005A7DDE /* JBarGraphLevel.swift */,
+				9EB38B9D2763CF7B005A7DDE /* JBarGraphProperties.swift */,
+				9EB38B9F2763CF99005A7DDE /* JBarGraphItem.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		9EB38BA52763DBBA005A7DDE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9EB38BA62763DBC7005A7DDE /* ColorExtensions.swift */,
+				9EB38BB127644F84005A7DDE /* StringExtensions.swift */,
+				9EB38BB72765181A005A7DDE /* CALayerExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9EB38BA82763DBD6005A7DDE /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9EB38BA92763DBE1005A7DDE /* ColorConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9EB38BAB2763DDB2005A7DDE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9EB38BAC2763DDBF005A7DDE /* ColorHelper.swift */,
+				9E80600327654AA900AD3C01 /* TestDataHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9EB38BB32764E801005A7DDE /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				9EB38BB42764E806005A7DDE /* View */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		9EB38BB42764E806005A7DDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9EB38BB52764E818005A7DDE /* CardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +245,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EB38BA72763DBC7005A7DDE /* ColorExtensions.swift in Sources */,
+				9EB38B9E2763CF7B005A7DDE /* JBarGraphProperties.swift in Sources */,
+				9EB38B9C2763CF5F005A7DDE /* JBarGraphLevel.swift in Sources */,
+				9EB38BB82765181A005A7DDE /* CALayerExtensions.swift in Sources */,
+				9EB38BAA2763DBE1005A7DDE /* ColorConstants.swift in Sources */,
+				9EB38BB62764E818005A7DDE /* CardView.swift in Sources */,
+				9EB38BA42763D2B8005A7DDE /* GradientView.swift in Sources */,
+				9EB38B9A2763C722005A7DDE /* JBarGraphLevelView.swift in Sources */,
 				9EB38B8627637C17005A7DDE /* ViewController.swift in Sources */,
 				9EB38B8227637C17005A7DDE /* AppDelegate.swift in Sources */,
+				9E806006276558F500AD3C01 /* SampleGraphView.swift in Sources */,
 				9EB38B8427637C17005A7DDE /* SceneDelegate.swift in Sources */,
+				9E80600427654AA900AD3C01 /* TestDataHelper.swift in Sources */,
+				9EB38BAD2763DDBF005A7DDE /* ColorHelper.swift in Sources */,
+				9EB38BA02763CF99005A7DDE /* JBarGraphItem.swift in Sources */,
+				9E8060022765460400AD3C01 /* JBarItemCollectionViewCell.swift in Sources */,
+				9EB38BB227644F84005A7DDE /* StringExtensions.swift in Sources */,
+				9EB38B9827637DD1005A7DDE /* JBarGraphView.swift in Sources */,
+				9E8060082765600500AD3C01 /* JBarGraphIndicatorView.swift in Sources */,
+				9EB38BA22763D1D3005A7DDE /* JBarCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
