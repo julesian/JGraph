@@ -115,7 +115,7 @@ class JBarCollectionViewCell: UICollectionViewCell {
         
         barHeightConstraint?.constant = 0.0
         
-        UIView.animate(withDuration: 1.0,
+        UIView.animate(withDuration: 0.95,
                        delay: delay,
                        options: .curveEaseOut,
                        animations: {

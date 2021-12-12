@@ -72,7 +72,7 @@ class JBarGraphIndicatorView: UIView {
         
         alpha = show ? 0 : 0.6
         
-        UIView.animate(withDuration: 1.0,
+        UIView.animate(withDuration: 0.35,
                        delay: delay,
                        options: .curveEaseOut,
                        animations: {

@@ -176,7 +176,7 @@ class JBarGraphLevelView: UIView {
         }
         
         if didLayoutSubviews, animateOnLoad {
-            animateShow(true, delay: index * 0.15)
+            animateShow(true, delay: index * 0.10)
         }
     }
     
@@ -192,7 +192,7 @@ class JBarGraphLevelView: UIView {
         
         alpha = show ? 0 : 1
         
-        UIView.animate(withDuration: 1.0,
+        UIView.animate(withDuration: 0.35,
                        delay: delay,
                        options: .curveEaseOut,
                        animations: {

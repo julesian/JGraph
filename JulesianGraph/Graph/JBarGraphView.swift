@@ -172,7 +172,7 @@ class JBarGraphView: UIView {
     func showYIndicatorViews(_ show: Bool) {
         var index = 0.0
         for view in yIndicatorViews {
-            view.animateShow(show, delay: index * 0.15)
+            view.animateShow(show, delay: index * 0.10)
             index += 1.0
         }
     }
@@ -234,7 +234,7 @@ class JBarGraphView: UIView {
     func showYLevelViews(_ show: Bool) {
         var index = 0.0
         for view in yLevelViews {
-            view.animateShow(show, delay: index * 0.15)
+            view.animateShow(show, delay: index * 0.10)
             index += 1.0
         }
     }
