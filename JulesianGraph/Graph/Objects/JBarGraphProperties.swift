@@ -33,9 +33,8 @@ extension JBarGraphProperties {
         for item in items{
             var currentLevel = 0
             for level in levels {
-                if item.value >= level.minValue,
-                   item.value <= level.maxValue {
-                        item.level = currentLevel;
+                if level.withinRange(value: item.value) {
+                    item.level = currentLevel;
                 }
                 currentLevel += 1
             }

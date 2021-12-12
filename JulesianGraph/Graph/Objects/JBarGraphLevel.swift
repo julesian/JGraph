@@ -23,3 +23,17 @@ class JBarGraphLevel: NSObject {
     var subtitle: String = Defaults.SubTitle
     var level: Int = Defaults.Level
 }
+
+extension JBarGraphLevel {
+    func hasNoLimit() -> Bool {
+        return minValue > maxValue || maxValue == 0
+    }
+    
+    func withinRange(value: Double) -> Bool {
+        if hasNoLimit() {
+            return value >= minValue
+        } else {
+            return value >= minValue && value <= maxValue
+        }
+    }
+}

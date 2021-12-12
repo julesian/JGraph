@@ -48,18 +48,17 @@ struct TestDataHelper {
         
         jLevel.title = title
         
-        let hasNoLimit = min > max || max == 0
+        jLevel.minValue = min
+        jLevel.maxValue = max
+        jLevel.level = level
         
-        jLevel.subtitle = hasNoLimit ?
+        jLevel.subtitle = jLevel.hasNoLimit() ?
         String(format: "%@+",
                String.numberSuffix(from: min))
         :
         String(format: "%@ - %@",
                String.numberSuffix(from: min),
                String.numberSuffix(from: max))
-        jLevel.minValue = min
-        jLevel.maxValue = max
-        jLevel.level = level
         
         return jLevel
     }
